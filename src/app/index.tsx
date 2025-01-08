@@ -1,5 +1,6 @@
-import { View, Text } from "react-native";
+import { View } from "react-native";
 
+import { Button } from "@/components/button";
 import { Welcome } from "@/components/welcome";
 import { Steps } from "@/components/steps";
 
@@ -8,12 +9,16 @@ export default function Index() {
 		<View
 			style={{
 				flex: 1,
-        padding: 40,
-        gap: 40,
+				padding: 40,
+				gap: 40,
 			}}
 		>
 			<Welcome />
-      <Steps />
+			<Steps />
+
+			<Button>
+				<Button.Title>Começar</Button.Title>
+			</Button>
 		</View>
 	);
 }

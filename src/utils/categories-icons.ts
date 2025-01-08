@@ -4,7 +4,7 @@ import {
   IconCoffee,
   IconShoppingBag,
   IconToolsKitchen2,
-  IconProps,
+  type IconProps,
 } from "@tabler/icons-react-native"
 
 export const categoriesIcons: Record<string, React.ComponentType<IconProps>> = {
